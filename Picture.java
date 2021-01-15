@@ -368,6 +368,9 @@ public class Picture
 
    ////////////////////// methods ///////////////////////////////////////
 
+
+//Unit 6 Lab 1
+//By Johnathan Mitri
   public void decreaseBlue(double amount)
   {
      
@@ -387,6 +390,8 @@ public class Picture
   }
     
 
+//Unit 6 Lab 2
+//By Johnathan Mitri
   public void negativePicture()
   {
   //create a pixel array
