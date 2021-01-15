@@ -3,8 +3,9 @@ class Main
   /* Main method for testing */
   public static void main(String[] args) 
   {
-    Picture pic = new Picture("caterpillar.jpg");
-     System.out.println("lol");
+    Picture pic = new Picture("beach.jpg");
+    pic.negativePicture();
+    // System.out.println("lol");
     pic.write("output.jpg");
   }
 }
