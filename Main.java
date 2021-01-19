@@ -4,7 +4,7 @@ class Main
   public static void main(String[] args) 
   {
     Picture pic = new Picture("beach.jpg");
-    pic.decreaseBlue(0.6);
+    pic.reduceRGB(0.6, 0.9, 0.2);
     // System.out.println("lol");
     pic.write("output.jpg");
   }
